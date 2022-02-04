@@ -7,8 +7,9 @@
         <entry key="..\:/Users/abnac/StudioProjects/Field_work/app/src/main/res/drawable/ic_launcher_background.xml" value="0.15" />
         <entry key="..\:/Users/abnac/StudioProjects/Field_work/app/src/main/res/drawable/ic_lock.xml" value="0.1945" />
         <entry key="..\:/Users/abnac/StudioProjects/Field_work/app/src/main/res/drawable/ic_phone.xml" value="0.1945" />
-        <entry key="..\:/Users/abnac/StudioProjects/Field_work/app/src/main/res/layout/activity_login.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/abnac/StudioProjects/Field_work/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/abnac/StudioProjects/Field_work/app/src/main/res/layout/activity_forgot_pin.xml" value="0.18" />
+        <entry key="..\:/Users/abnac/StudioProjects/Field_work/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/abnac/StudioProjects/Field_work/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
   </component>

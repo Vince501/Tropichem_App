@@ -21,12 +21,12 @@
         android:textSize="15dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/welcomeSignup" />
 
     <ImageView
         android:id="@+id/profilePic"
-        android:layout_width="261dp"
-        android:layout_height="231dp"
+        android:layout_width="256dp"
+        android:layout_height="246dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/dpicon"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +50,7 @@
         app:layout_constraintTop_toBottomOf="@+id/profilePic" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/welcomeSignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -108,7 +108,7 @@
         android:drawableStart="@drawable/ic_lock"
         android:ems="10"
         android:background="@color/white"
-        android:hint="Create New Pin"
+        android:hint="Create New PIN"
         android:maxLength="5"
         android:inputType="numberPassword"
         android:textColor="@color/black"
@@ -126,7 +126,7 @@
         android:drawableStart="@drawable/ic_lock"
         android:ems="10"
         android:background="@color/white"
-        android:hint="Confirm New Pin"
+        android:hint="Confirm New PIN"
         android:maxLength="5"
         android:inputType="numberPassword"
         android:textColor="@color/black"
@@ -142,6 +142,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="Register"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

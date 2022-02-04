@@ -9,8 +9,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Field_work">
         <activity
+            android:name=".forgotPIN"
+            android:exported="true"
+            android:label="Forgot PIN"/>
+        <activity
             android:name=".login"
-            android:exported="true">
+            android:exported="true"
+            android:label="TROPICHEM">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,13 +25,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="TROPICHEM">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:label="TROPICHEM SIGN UP"></activity>
     </application>
 
 </manifest>
